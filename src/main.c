@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "../include/cpu.h"
+#include "../include/screen.h"
 
 int main (void) {
-   Cpu cpu;
-   initCpu(&cpu);
+   Screen s;
+   initScreen(&s);
 
    return EXIT_SUCCESS;
 }
